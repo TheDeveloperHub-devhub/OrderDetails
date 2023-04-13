@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="DeveloperHub_OrderDetails::menu"
+             title="Order Details"
+             module="DeveloperHub_OrderDetails"
+             sortOrder="50"
+             resource="DeveloperHub_OrderDetails::menu"
+             parent="DeveloperHub_Core::developerhub"
+        />
+        <add id="DeveloperHub_OrderDetails::configuration"
+             title="Configuration"
+             module="DeveloperHub_OrderDetails"
+             sortOrder="10"
+             action="adminhtml/system_config/edit/section/order_details"
+             resource="DeveloperHub_OrderDetails::config"
+             parent="DeveloperHub_OrderDetails::menu"
+        />
+    </menu>
+</config>
