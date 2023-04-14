@@ -1,5 +1,5 @@
 {
-    "name": "devhub/order-details-success-page",
+    "name": "devhub/order-details",
     "description": "DeveloperHub Order Details Module",
     "require": {
         "php": ">=7.1.0",
