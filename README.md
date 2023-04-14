@@ -10,7 +10,7 @@
 
 1. Please run the following command
 ```shell
-composer require developerhub/order-details
+composer require devhub/order-details
 ```
 
 2. Update the composer if required
